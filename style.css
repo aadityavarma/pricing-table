@@ -1,0 +1,50 @@
+h1 {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+th {
+  background-color: rgb(215, 230, 229);
+  padding: 26px;
+  width: 90%;
+}
+
+txt-top {
+  color: rgb(79, 190, 57);
+}
+
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+.fa-check {
+  color: rgb(32, 216, 32);
+}
+
+.fa-remove {
+  color: red;
+}
